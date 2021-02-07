@@ -16,7 +16,7 @@ class LoginSuccessCase(unittest.TestCase):
     def tearDown(self) -> None: # 测试清理
         time.sleep(2)
         self.driver.quit()
-
+        print('hahah')
     def test_login(self):
         '这是测试admin Wyp123456 登陆'
         login.login(self.driver, 'admin', 'Wyp123456')
