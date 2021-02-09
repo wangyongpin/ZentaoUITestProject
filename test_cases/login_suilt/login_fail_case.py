@@ -14,6 +14,7 @@ class LoginFailCase(unittest.TestCase):
     def tearDown(self) -> None: # 测试清理
             time.sleep(2)
             self.driver.quit()
+            print('ss')
 
     def test_login(self):
         '这是测试admin Wyp1234567 登陆,密码错误导致'
